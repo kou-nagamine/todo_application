@@ -37,6 +37,8 @@ class MyHomePage extends StatelessWidget {
             Consumer<ChangeColor>(
               builder: (context, changeColorModel, child) {
                 return ElevatedButton(
+                  //以下のようにアロー関数をつけるとメソッドが呼び出されなくなります。
+                  //onPressed: () => context.read<ChangeColor>().changeColor,
                   onPressed: context.read<ChangeColor>().changeColor,
                   style: ElevatedButton.styleFrom(
                     shape: CircleBorder(),
@@ -74,6 +76,8 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
         floatingActionButton:FloatingActionButton(
+              //以下のようにアロー関数をつけるとメソッドが呼び出されなくなります。
+              //onPressed: () => context.read<CountModel>().incrementCounter,
               onPressed: context.read<CountModel>().incrementCounter,
               child: const Icon(Icons.add),
         )
