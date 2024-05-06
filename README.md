@@ -1,16 +1,9 @@
 # todo_application
 
-A new Flutter project.
+デフフォルトのカウンターアプリに色をランダムで変更するボタンを追加したカウンターアプリ
 
-## Getting Started
+## UI
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|最初の画面|色変更後(ボタンの色も一緒に変わります）|
+| --- | --- |
+|<img width="363" alt="スクリーンショット 2024-05-06 21 01 23" src="https://github.com/kou-nagamine/todo_application/assets/136679628/6cd45a16-b8fa-41ee-9354-5d8646626e47">|<img width="361" alt="スクリーンショット 2024-05-06 21 01 47" src="https://github.com/kou-nagamine/todo_application/assets/136679628/e1d5a0d0-a288-40bb-b5e8-48cba4785d87">|
